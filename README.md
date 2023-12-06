@@ -32,8 +32,6 @@ Audience: Non-competitive player
 
 Platform: Window
 
-         ------
-
 Main Aim: What is the main thing the player is trying to achieve in the game world?
 -> Gaining enough money to end game.
 
