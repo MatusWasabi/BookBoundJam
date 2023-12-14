@@ -1,5 +1,18 @@
 # Game Programming designs
 
+MoSCoW Reminder
+Must Have: Repelling wolf, Buying Goal, Planting Seed
+Should Have: Upgrading Water Gun, Upgrading Lil' Red physical, Watering Plant, Stackable Items
+Could Have: Carrying Items around like minecraft hand
+Won't Have: Many farm lands, Many enemies to obstacle the game (Thanks Brackey for MoSCoW method)
+
+Core Loop
+1. Buy Crop seed
+2. Plant seed
+3. Water it
+4. Harvest and sell it
+5. Use it to buy more seed till you have enough money to buy end game.
+
 ## Picking up items
 https://www.youtube.com/watch?v=k6oKBVRaLLo&pp=ygUcY2FycnlpbmcgaXRlbSB1bnJlYWwgZW5naW5lXQ%3D%3D
 We will use this system as a way to carry your veggies around the farm house. 
@@ -10,3 +23,5 @@ When we are holding the veggies, and the veggies enter triggerbox, it will destr
 ## Money
 We gonna try using unreal engine subsytem as it is new concept to try but it can decouple the code
 https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/Subsystems/
+
+
