@@ -24,4 +24,12 @@ When we are holding the veggies, and the veggies enter triggerbox, it will destr
 We gonna try using unreal engine subsytem as it is new concept to try but it can decouple the code
 https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/Subsystems/
 
+## Wolf 
+They will be spawned randomly from time to time.
+There maybe many way to stop the player.
+But with the time limit, it will be stealing only the corp of the player.
+Maybe I should try using Damage Architecture of unreal engine to deal with this wolf Actor.
+
+While using the blackboard and stuff
+
 
