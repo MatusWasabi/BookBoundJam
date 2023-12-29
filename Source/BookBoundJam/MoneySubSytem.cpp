@@ -23,6 +23,11 @@ void UMoneySubSytem::Decrease(int Amount)
 	Money -= Amount;
 }
 
+void UMoneySubSytem::Set(int Amount)
+{
+	Money = Amount;
+}
+
 int UMoneySubSytem::GetPlayerMoney()
 {
 	return Money;

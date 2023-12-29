@@ -63,6 +63,8 @@ public:
 	/** Getter for the bool */
 	UFUNCTION(BlueprintCallable, Category = Weapon)
 	bool GetHasRifle();
+	
+	
 
 protected:
 	/** Called for movement input */

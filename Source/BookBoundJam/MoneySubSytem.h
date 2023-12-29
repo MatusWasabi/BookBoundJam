@@ -25,6 +25,8 @@ public:
 	void Increase(int Amount);
 	UFUNCTION(BlueprintCallable, Category = "Money")
 	void Decrease(int Amount);
+	UFUNCTION(BlueprintCallable, Category = "Money")
+	void Set(int Amount);
 
 	UFUNCTION(BlueprintPure)
 	int GetPlayerMoney();

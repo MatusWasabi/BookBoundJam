@@ -53,6 +53,7 @@ void ABookBoundJamCharacter::BeginPlay()
 
 }
 
+
 //////////////////////////////////////////////////////////////////////////// Input
 
 void ABookBoundJamCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
