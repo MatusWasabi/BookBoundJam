@@ -56,4 +56,16 @@ Foliage
 Spline
 [https://youtu.be/OdjvlvGRYRE?si=2bD1SssP9oJ1e-Ce]
 
+8. Audio 
+So far, I have not been doing so much of the coding with this one.
+I just work around the Audio Cue and audio files. And a little bit of animation notify to play sound.
+Animation notify is pretty handy as it reduces coupling and easier to manage.
+[https://youtu.be/jzKZHVx_NzA]
+
+9. Build 
+First time I built it, it took 30 minutes. 
+The second time is just 30 secs. 
+The reason behind the difference is I did not specifically select what maps for it to built.
+So it decided to included all maps which took big part it that build. 
+[https://forums.unrealengine.com/t/how-do-i-package-only-part-of-my-project/349995]
 
