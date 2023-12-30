@@ -29,40 +29,31 @@ And it is interesting system to explore as it can grow extensively.
 I tried to work with HasGameEnded() [https://docs.unrealengine.com/5.3/en-US/API/Runtime/Engine/GameFramework/APlayerController/GameHasEnded/] as I learnt it from Udemy [https://www.udemy.com/share/101Weu3@X0mi8-jgmOGQ8srwgX4qWMna8YQiKtr4gp1x93jUuOYDW-PfjRCohVB322iRaYi57Q==/].
 But I could not find it in Blueprint. So I have to hard code through it using custom event and chain calling. Resulting in unnessary coupled code.
 
+5. Wolf/Enemy 
+First, I do an empty collision that standing still. Just to test with collision of it.
+Then, I used Apply Damage function on bullet and Damage Event on Wolf. 
+[https://docs.unrealengine.com/4.27/en-US/BlueprintAPI/Game/Damage/ApplyDamage/]
 
+After that, I started to do AI with it. Using Behavior Tree and Blackboard.
+And in the end, the wolf can chase after the item and patrol around the map.
+I did not implement EQS but I did implement Perception AI to help me work with chasing item. 
+[https://youtu.be/iY1jnFvHgbE?si=Jrg-nB0GlCQneVoP]
+From doing that, I also learn to use AI Debugging Tool as well [https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/ArtificialIntelligence/AIDebugging/]
 
+6. Interfaces
+After developing all of that above, I go for UIs. So that the game can be easier to understand by the player. 
+It is not perfect but I have worked with HUD and widgets of unreal engine. 
 
+7. Replacing models and decorating the map
+So after I got all the basic ready. I go for aesthetic of the game. 
+By models of Petite Jello (My Artist) and imported assets from the asset store of Epic Games. 
 
-MoSCoW Reminder
-Must Have: Repelling wolf, Buying Goal, Planting Seed
-Should Have: Upgrading Water Gun, Upgrading Lil' Red physical, Watering Plant, Stackable Items
-Could Have: Carrying Items around like minecraft hand
-Won't Have: Many farm lands, Many enemies to obstacle the game (Thanks Brackey for MoSCoW method)
+With imported asset from store I learn how to used landscape and foliage mode as well. Also spline.
 
-Core Loop
-1. Buy Crop seed
-2. Plant seed
-3. Water it
-4. Harvest and sell it
-5. Use it to buy more seed till you have enough money to buy end game.
+Foliage
+[https://youtu.be/xo9L7RRM1-U?si=dzt5uyQTqgzk39jZ]
 
-## Picking up items
-https://www.youtube.com/watch?v=k6oKBVRaLLo&pp=ygUcY2FycnlpbmcgaXRlbSB1bnJlYWwgZW5naW5lXQ%3D%3D
-We will use this system as a way to carry your veggies around the farm house. 
-
-## Sell point
-When we are holding the veggies, and the veggies enter triggerbox, it will destroy that veggie in return of money
-
-## Money
-We gonna try using unreal engine subsytem as it is new concept to try but it can decouple the code
-https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/Subsystems/
-
-## Wolf 
-They will be spawned randomly from time to time.
-There maybe many way to stop the player.
-But with the time limit, it will be stealing only the corp of the player.
-Maybe I should try using Damage Architecture of unreal engine to deal with this wolf Actor.
-
-While using the blackboard and stuff
+Spline
+[https://youtu.be/OdjvlvGRYRE?si=2bD1SssP9oJ1e-Ce]
 
 
