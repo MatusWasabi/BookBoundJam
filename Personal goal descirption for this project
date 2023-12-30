@@ -5,6 +5,7 @@
 The main purpose is not to win the game jam but to have some project-based learning for my personal
 career. 
 You can say it is not much of "What players want" but more of "What I want to try to learn" kind of game.
+(Which is not good mindset for game developer)
 
 ## What have I done? 
 -> So far, I have tried using Git version control with Unreal Engine. This is pretty new to me as I was using SVN when I worked with Unreal for the first time.
@@ -47,8 +48,8 @@ It is not perfect but I have worked with HUD and widgets of unreal engine.
 7. Replacing models and decorating the map
 So after I got all the basic ready. I go for aesthetic of the game. 
 By models of Petite Jello (My Artist) and imported assets from the asset store of Epic Games. 
-
 With imported asset from store I learn how to used landscape and foliage mode as well. Also spline.
+Pretty disappointed when I found out Procedural Mesh Generation does not exist in 5.1
 
 Foliage
 [https://youtu.be/xo9L7RRM1-U?si=dzt5uyQTqgzk39jZ]
@@ -69,3 +70,15 @@ The reason behind the difference is I did not specifically select what maps for 
 So it decided to included all maps which took big part it that build. 
 [https://forums.unrealengine.com/t/how-do-i-package-only-part-of-my-project/349995]
 
+## What have I learnt doing this project
+-> There are a lot of things I learnt but to make them in list it will be like this.
+- Choosing Version Control [https://www.youtube.com/watch?v=faYmvw_Pd-A&pp=ygUgc291cmNlIGNvbnRyb2wgYW5kIHVucmVhbCBlbmdpbmU%3D]
+- Basic of Source Control in Unreal [https://docs.unrealengine.com/5.0/en-US/using-source-control-in-the-unreal-editor/]
+- Physic Handler [https://youtu.be/k6oKBVRaLLo?si=HFKvPzQBA4pVlp60] 
+- Subsytem [https://www.youtube.com/live/v5b1FvKBYzc?si=c86j_dSMXcE4dRaq]
+- Damage [https://docs.unrealengine.com/4.26/en-US/BlueprintAPI/Game/Damage/]
+- AI [https://youtu.be/iY1jnFvHgbE?si=Jrg-nB0GlCQneVoP]
+- Foliage mode [https://youtu.be/xo9L7RRM1-U?si=dzt5uyQTqgzk39jZ]
+- Landscape mode [https://www.youtube.com/watch?v=JSjtHU6xuDE&pp=ygUXbGFuZHNjYXBlIHVucmVhbCBlbmdpbmU%3D, https://youtu.be/3zy5oMXuO04?si=QMmqkmRiX568kBqq]
+- Anim notify [https://youtu.be/jzKZHVx_NzA]
+- Build [https://forums.unrealengine.com/t/how-do-i-package-only-part-of-my-project/349995]
