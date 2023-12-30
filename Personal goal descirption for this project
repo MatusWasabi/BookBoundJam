@@ -1,0 +1,68 @@
+# Personal goal descirption 
+
+## What did I plan to do with this project?
+-> I was trying to make a simple farm game for intending the game jam.
+The main purpose is not to win the game jam but to have some project-based learning for my personal
+career. 
+You can say it is not much of "What players want" but more of "What I want to try to learn" kind of game.
+
+## What have I done? 
+-> So far, I have tried using Git version control with Unreal Engine. This is pretty new to me as I was using SVN when I worked with Unreal for the first time.
+In the early stage of development, I tried to used GDD template for the jam as well. I am not quite a guy with creative idea when it comes to the design. 
+
+But atleast I tried some principles when designing such as MoSCoW Method, and tried to separate business idea and development idea. Even tho, I don't know if 
+that's correctly separate.
+
+Then I started to program around things starting from First person template of Unreal Engine. This is the timeline of system implemented
+1. Grabbing items [https://youtu.be/k6oKBVRaLLo?si=HFKvPzQBA4pVlp60] 
+(I just know what is physic handler is with this video but not much of how it can be implemented outside this tutorial. I just doesn't like how we have to used update event as it can be seem as performance heavied)
+
+2. Item and its selling point 
+(This mainly works around the collision system of Unreal. It is implemented this way because I was not so familar with collision system. So I think this practise will improve my collision foundation. 
+I think to go advance is to have sturdy foundation first.)
+
+3. Money Subsytem [https://www.youtube.com/live/v5b1FvKBYzc?si=c86j_dSMXcE4dRaq]
+This is a small part of my project that used C++ to implement. I decided to use Subsystem C++ because it seems to avoid coupling code in my game. 
+And it is interesting system to explore as it can grow extensively. 
+
+4. Win/Lose Game 
+I tried to work with HasGameEnded() [https://docs.unrealengine.com/5.3/en-US/API/Runtime/Engine/GameFramework/APlayerController/GameHasEnded/] as I learnt it from Udemy [https://www.udemy.com/share/101Weu3@X0mi8-jgmOGQ8srwgX4qWMna8YQiKtr4gp1x93jUuOYDW-PfjRCohVB322iRaYi57Q==/].
+But I could not find it in Blueprint. So I have to hard code through it using custom event and chain calling. Resulting in unnessary coupled code.
+
+
+
+
+
+MoSCoW Reminder
+Must Have: Repelling wolf, Buying Goal, Planting Seed
+Should Have: Upgrading Water Gun, Upgrading Lil' Red physical, Watering Plant, Stackable Items
+Could Have: Carrying Items around like minecraft hand
+Won't Have: Many farm lands, Many enemies to obstacle the game (Thanks Brackey for MoSCoW method)
+
+Core Loop
+1. Buy Crop seed
+2. Plant seed
+3. Water it
+4. Harvest and sell it
+5. Use it to buy more seed till you have enough money to buy end game.
+
+## Picking up items
+https://www.youtube.com/watch?v=k6oKBVRaLLo&pp=ygUcY2FycnlpbmcgaXRlbSB1bnJlYWwgZW5naW5lXQ%3D%3D
+We will use this system as a way to carry your veggies around the farm house. 
+
+## Sell point
+When we are holding the veggies, and the veggies enter triggerbox, it will destroy that veggie in return of money
+
+## Money
+We gonna try using unreal engine subsytem as it is new concept to try but it can decouple the code
+https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/Subsystems/
+
+## Wolf 
+They will be spawned randomly from time to time.
+There maybe many way to stop the player.
+But with the time limit, it will be stealing only the corp of the player.
+Maybe I should try using Damage Architecture of unreal engine to deal with this wolf Actor.
+
+While using the blackboard and stuff
+
+
